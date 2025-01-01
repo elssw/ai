@@ -1,0 +1,13 @@
+train: ./data/train/images
+val: ./data/valid/images
+test: 
+
+nc: 2
+names: ['me', 'taco']
+
+roboflow:
+  workspace: asdet
+  project: face-ao2vb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/asdet/face-ao2vb/dataset/1
